@@ -26,6 +26,7 @@ setup(name='ploneconf2014.policy',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'plone.api',
           'collective.plonetruegallery==3.4.4',
           'collective.geo.bundle==2.1',
           'Products.PloneFormGen==1.7.14',
