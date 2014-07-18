@@ -6,16 +6,11 @@ Contains constants used by setuphandler.py
 
 PROJECTNAME = 'ploneconf2014.policy'
 
-PRODUCT_DEPENDENCIES = [
+DEPENDENCIES = [
     'plone.api',
     'collective.plonetruegallery',
     'collective.geo.bundle',
     'Products.PloneFormGen',
+    'ploneconf2014.contenttypes',
+    'ploneconf2014.theme',
     ]
-
-PACKAGE_DEPENDENCIES = [
-#    'ploneconf2014.contenttypes',
-#    'ploneconf2014.theme',
-    ]
-
-DEPENDENCIES = PRODUCT_DEPENDENCIES + PACKAGE_DEPENDENCIES

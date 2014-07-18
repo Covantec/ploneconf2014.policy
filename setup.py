@@ -30,6 +30,8 @@ setup(name='ploneconf2014.policy',
           'collective.plonetruegallery==3.4.4',
           'collective.geo.bundle==2.1',
           'Products.PloneFormGen==1.7.14',
+          'ploneconf2014.theme',
+          'ploneconf2014.contenttypes',
       ],
       extras_require={
         'test': ['plone.app.testing'],
