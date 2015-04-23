@@ -32,6 +32,7 @@ setup(name='ploneconf2014.policy',
           'Products.PloneFormGen==1.7.14',
           'ploneconf2014.theme',
           'ploneconf2014.contenttypes',
+          'ploneconf2014.portlets',
       ],
       extras_require={
         'test': ['plone.app.testing'],
